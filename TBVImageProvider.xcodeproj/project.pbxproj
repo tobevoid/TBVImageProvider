@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D66215D71EF508CB00DD4FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D66215D61EF508CB00DD4FB7 /* main.m */; };
+		D66215DA1EF508CB00DD4FB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D66215D91EF508CB00DD4FB7 /* AppDelegate.m */; };
+		D66215DD1EF508CB00DD4FB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66215DC1EF508CB00DD4FB7 /* ViewController.m */; };
+		D66215E01EF508CB00DD4FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66215DE1EF508CB00DD4FB7 /* Main.storyboard */; };
+		D66215E21EF508CB00DD4FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66215E11EF508CB00DD4FB7 /* Assets.xcassets */; };
+		D66215E51EF508CB00DD4FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66215E31EF508CB00DD4FB7 /* LaunchScreen.storyboard */; };
+		D66215F01EF508CB00DD4FB7 /* TBVImageProviderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D66215EF1EF508CB00DD4FB7 /* TBVImageProviderUITests.m */; };
+		D66216231EF509C000DD4FB7 /* NSError+TBVImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D66216141EF509C000DD4FB7 /* NSError+TBVImageProvider.m */; };
+		D66216241EF509C000DD4FB7 /* TBVAssetImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D66216161EF509C000DD4FB7 /* TBVAssetImageProvider.m */; };
+		D66216251EF509C000DD4FB7 /* TBVAssetsReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D66216191EF509C000DD4FB7 /* TBVAssetsReformer.m */; };
+		D66216261EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D662161C1EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.m */; };
+		D66216271EF509C000DD4FB7 /* TBVImageProviderManager+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = D662161E1EF509C000DD4FB7 /* TBVImageProviderManager+Register.m */; };
+		D66216281EF509C000DD4FB7 /* TBVLocalImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D66216201EF509C000DD4FB7 /* TBVLocalImageProvider.m */; };
+		D66216291EF509C000DD4FB7 /* TBVWebImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D66216221EF509C000DD4FB7 /* TBVWebImageProvider.m */; };
+		F460899E8AAB17C48F6E2B53 /* libPods-TBVImageProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3D5D20A9D84F393217ECF5 /* libPods-TBVImageProvider.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D66215EC1EF508CB00DD4FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66215CA1EF508CB00DD4FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66215D11EF508CB00DD4FB7;
+			remoteInfo = TBVImageProvider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2124F75B8F9377B9CF8FF9ED /* Pods-TBVImageProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBVImageProvider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBVImageProvider/Pods-TBVImageProvider.debug.xcconfig"; sourceTree = "<group>"; };
+		3B3D5D20A9D84F393217ECF5 /* libPods-TBVImageProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TBVImageProvider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66215D21EF508CB00DD4FB7 /* TBVImageProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBVImageProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66215D61EF508CB00DD4FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D66215D81EF508CB00DD4FB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D66215D91EF508CB00DD4FB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D66215DB1EF508CB00DD4FB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D66215DC1EF508CB00DD4FB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D66215DF1EF508CB00DD4FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D66215E11EF508CB00DD4FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D66215E41EF508CB00DD4FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D66215E61EF508CB00DD4FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66215EB1EF508CB00DD4FB7 /* TBVImageProviderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBVImageProviderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66215EF1EF508CB00DD4FB7 /* TBVImageProviderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBVImageProviderUITests.m; sourceTree = "<group>"; };
+		D66215F11EF508CB00DD4FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66216131EF509C000DD4FB7 /* NSError+TBVImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+TBVImageProvider.h"; sourceTree = "<group>"; };
+		D66216141EF509C000DD4FB7 /* NSError+TBVImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+TBVImageProvider.m"; sourceTree = "<group>"; };
+		D66216151EF509C000DD4FB7 /* TBVAssetImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVAssetImageProvider.h; sourceTree = "<group>"; };
+		D66216161EF509C000DD4FB7 /* TBVAssetImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVAssetImageProvider.m; sourceTree = "<group>"; };
+		D66216181EF509C000DD4FB7 /* TBVAssetsReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVAssetsReformer.h; sourceTree = "<group>"; };
+		D66216191EF509C000DD4FB7 /* TBVAssetsReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVAssetsReformer.m; sourceTree = "<group>"; };
+		D662161B1EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DALabeledCircularProgressView+TBVImageProgressPresenter.h"; sourceTree = "<group>"; };
+		D662161C1EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DALabeledCircularProgressView+TBVImageProgressPresenter.m"; sourceTree = "<group>"; };
+		D662161D1EF509C000DD4FB7 /* TBVImageProviderManager+Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBVImageProviderManager+Register.h"; sourceTree = "<group>"; };
+		D662161E1EF509C000DD4FB7 /* TBVImageProviderManager+Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBVImageProviderManager+Register.m"; sourceTree = "<group>"; };
+		D662161F1EF509C000DD4FB7 /* TBVLocalImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVLocalImageProvider.h; sourceTree = "<group>"; };
+		D66216201EF509C000DD4FB7 /* TBVLocalImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVLocalImageProvider.m; sourceTree = "<group>"; };
+		D66216211EF509C000DD4FB7 /* TBVWebImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVWebImageProvider.h; sourceTree = "<group>"; };
+		D66216221EF509C000DD4FB7 /* TBVWebImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVWebImageProvider.m; sourceTree = "<group>"; };
+		FA313526DDE71D36067A1934 /* Pods-TBVImageProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBVImageProvider.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBVImageProvider/Pods-TBVImageProvider.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66215CF1EF508CB00DD4FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F460899E8AAB17C48F6E2B53 /* libPods-TBVImageProvider.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66215E81EF508CB00DD4FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F98FD2FC252688F547CE1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B3D5D20A9D84F393217ECF5 /* libPods-TBVImageProvider.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		775D3B8A52E9CBA22AAB423A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2124F75B8F9377B9CF8FF9ED /* Pods-TBVImageProvider.debug.xcconfig */,
+				FA313526DDE71D36067A1934 /* Pods-TBVImageProvider.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D66215C91EF508CB00DD4FB7 = {
+			isa = PBXGroup;
+			children = (
+				D66215D41EF508CB00DD4FB7 /* TBVImageProvider */,
+				D66215EE1EF508CB00DD4FB7 /* TBVImageProviderUITests */,
+				D66215D31EF508CB00DD4FB7 /* Products */,
+				775D3B8A52E9CBA22AAB423A /* Pods */,
+				33F98FD2FC252688F547CE1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D66215D31EF508CB00DD4FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66215D21EF508CB00DD4FB7 /* TBVImageProvider.app */,
+				D66215EB1EF508CB00DD4FB7 /* TBVImageProviderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D66215D41EF508CB00DD4FB7 /* TBVImageProvider */ = {
+			isa = PBXGroup;
+			children = (
+				D66216121EF509C000DD4FB7 /* TBVImageProvider */,
+				D66215D81EF508CB00DD4FB7 /* AppDelegate.h */,
+				D66215D91EF508CB00DD4FB7 /* AppDelegate.m */,
+				D66215DB1EF508CB00DD4FB7 /* ViewController.h */,
+				D66215DC1EF508CB00DD4FB7 /* ViewController.m */,
+				D66215DE1EF508CB00DD4FB7 /* Main.storyboard */,
+				D66215E11EF508CB00DD4FB7 /* Assets.xcassets */,
+				D66215E31EF508CB00DD4FB7 /* LaunchScreen.storyboard */,
+				D66215E61EF508CB00DD4FB7 /* Info.plist */,
+				D66215D51EF508CB00DD4FB7 /* Supporting Files */,
+			);
+			path = TBVImageProvider;
+			sourceTree = "<group>";
+		};
+		D66215D51EF508CB00DD4FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66215D61EF508CB00DD4FB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D66215EE1EF508CB00DD4FB7 /* TBVImageProviderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D66215EF1EF508CB00DD4FB7 /* TBVImageProviderUITests.m */,
+				D66215F11EF508CB00DD4FB7 /* Info.plist */,
+			);
+			path = TBVImageProviderUITests;
+			sourceTree = "<group>";
+		};
+		D66216121EF509C000DD4FB7 /* TBVImageProvider */ = {
+			isa = PBXGroup;
+			children = (
+				D66216171EF509C000DD4FB7 /* TBVAssetsReformer */,
+				D662161A1EF509C000DD4FB7 /* TBVImageProgressPresenter */,
+				D66216131EF509C000DD4FB7 /* NSError+TBVImageProvider.h */,
+				D66216141EF509C000DD4FB7 /* NSError+TBVImageProvider.m */,
+				D66216151EF509C000DD4FB7 /* TBVAssetImageProvider.h */,
+				D66216161EF509C000DD4FB7 /* TBVAssetImageProvider.m */,
+				D662161D1EF509C000DD4FB7 /* TBVImageProviderManager+Register.h */,
+				D662161E1EF509C000DD4FB7 /* TBVImageProviderManager+Register.m */,
+				D662161F1EF509C000DD4FB7 /* TBVLocalImageProvider.h */,
+				D66216201EF509C000DD4FB7 /* TBVLocalImageProvider.m */,
+				D66216211EF509C000DD4FB7 /* TBVWebImageProvider.h */,
+				D66216221EF509C000DD4FB7 /* TBVWebImageProvider.m */,
+			);
+			path = TBVImageProvider;
+			sourceTree = "<group>";
+		};
+		D66216171EF509C000DD4FB7 /* TBVAssetsReformer */ = {
+			isa = PBXGroup;
+			children = (
+				D66216181EF509C000DD4FB7 /* TBVAssetsReformer.h */,
+				D66216191EF509C000DD4FB7 /* TBVAssetsReformer.m */,
+			);
+			path = TBVAssetsReformer;
+			sourceTree = "<group>";
+		};
+		D662161A1EF509C000DD4FB7 /* TBVImageProgressPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				D662161B1EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.h */,
+				D662161C1EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.m */,
+			);
+			path = TBVImageProgressPresenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D66215D11EF508CB00DD4FB7 /* TBVImageProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66215F41EF508CB00DD4FB7 /* Build configuration list for PBXNativeTarget "TBVImageProvider" */;
+			buildPhases = (
+				F811FB3D0F72D49E91939BAD /* [CP] Check Pods Manifest.lock */,
+				D66215CE1EF508CB00DD4FB7 /* Sources */,
+				D66215CF1EF508CB00DD4FB7 /* Frameworks */,
+				D66215D01EF508CB00DD4FB7 /* Resources */,
+				77E9F6A5BC425B27760959BE /* [CP] Embed Pods Frameworks */,
+				CE044DC5B2E8F320B00512AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBVImageProvider;
+			productName = TBVImageProvider;
+			productReference = D66215D21EF508CB00DD4FB7 /* TBVImageProvider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D66215EA1EF508CB00DD4FB7 /* TBVImageProviderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66215F71EF508CB00DD4FB7 /* Build configuration list for PBXNativeTarget "TBVImageProviderUITests" */;
+			buildPhases = (
+				D66215E71EF508CB00DD4FB7 /* Sources */,
+				D66215E81EF508CB00DD4FB7 /* Frameworks */,
+				D66215E91EF508CB00DD4FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66215ED1EF508CB00DD4FB7 /* PBXTargetDependency */,
+			);
+			name = TBVImageProviderUITests;
+			productName = TBVImageProviderUITests;
+			productReference = D66215EB1EF508CB00DD4FB7 /* TBVImageProviderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D66215CA1EF508CB00DD4FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tripleCC;
+				TargetAttributes = {
+					D66215D11EF508CB00DD4FB7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D66215EA1EF508CB00DD4FB7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D66215D11EF508CB00DD4FB7;
+					};
+				};
+			};
+			buildConfigurationList = D66215CD1EF508CB00DD4FB7 /* Build configuration list for PBXProject "TBVImageProvider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D66215C91EF508CB00DD4FB7;
+			productRefGroup = D66215D31EF508CB00DD4FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D66215D11EF508CB00DD4FB7 /* TBVImageProvider */,
+				D66215EA1EF508CB00DD4FB7 /* TBVImageProviderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D66215D01EF508CB00DD4FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66215E51EF508CB00DD4FB7 /* LaunchScreen.storyboard in Resources */,
+				D66215E21EF508CB00DD4FB7 /* Assets.xcassets in Resources */,
+				D66215E01EF508CB00DD4FB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66215E91EF508CB00DD4FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77E9F6A5BC425B27760959BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBVImageProvider/Pods-TBVImageProvider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE044DC5B2E8F320B00512AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBVImageProvider/Pods-TBVImageProvider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F811FB3D0F72D49E91939BAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66215CE1EF508CB00DD4FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66216241EF509C000DD4FB7 /* TBVAssetImageProvider.m in Sources */,
+				D66216251EF509C000DD4FB7 /* TBVAssetsReformer.m in Sources */,
+				D66216291EF509C000DD4FB7 /* TBVWebImageProvider.m in Sources */,
+				D66216281EF509C000DD4FB7 /* TBVLocalImageProvider.m in Sources */,
+				D66216271EF509C000DD4FB7 /* TBVImageProviderManager+Register.m in Sources */,
+				D66216261EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.m in Sources */,
+				D66215DD1EF508CB00DD4FB7 /* ViewController.m in Sources */,
+				D66216231EF509C000DD4FB7 /* NSError+TBVImageProvider.m in Sources */,
+				D66215DA1EF508CB00DD4FB7 /* AppDelegate.m in Sources */,
+				D66215D71EF508CB00DD4FB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66215E71EF508CB00DD4FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66215F01EF508CB00DD4FB7 /* TBVImageProviderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D66215ED1EF508CB00DD4FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66215D11EF508CB00DD4FB7 /* TBVImageProvider */;
+			targetProxy = D66215EC1EF508CB00DD4FB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D66215DE1EF508CB00DD4FB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66215DF1EF508CB00DD4FB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D66215E31EF508CB00DD4FB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66215E41EF508CB00DD4FB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D66215F21EF508CB00DD4FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D66215F31EF508CB00DD4FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D66215F51EF508CB00DD4FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2124F75B8F9377B9CF8FF9ED /* Pods-TBVImageProvider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TBVImageProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triplec.TBVImageProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D66215F61EF508CB00DD4FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA313526DDE71D36067A1934 /* Pods-TBVImageProvider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TBVImageProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triplec.TBVImageProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D66215F81EF508CB00DD4FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TBVImageProviderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triplec.TBVImageProviderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TBVImageProvider;
+			};
+			name = Debug;
+		};
+		D66215F91EF508CB00DD4FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TBVImageProviderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triplec.TBVImageProviderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TBVImageProvider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66215CD1EF508CB00DD4FB7 /* Build configuration list for PBXProject "TBVImageProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66215F21EF508CB00DD4FB7 /* Debug */,
+				D66215F31EF508CB00DD4FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66215F41EF508CB00DD4FB7 /* Build configuration list for PBXNativeTarget "TBVImageProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66215F51EF508CB00DD4FB7 /* Debug */,
+				D66215F61EF508CB00DD4FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D66215F71EF508CB00DD4FB7 /* Build configuration list for PBXNativeTarget "TBVImageProviderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66215F81EF508CB00DD4FB7 /* Debug */,
+				D66215F91EF508CB00DD4FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D66215CA1EF508CB00DD4FB7 /* Project object */;
+}
