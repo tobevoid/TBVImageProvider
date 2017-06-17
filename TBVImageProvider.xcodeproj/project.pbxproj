@@ -64,6 +64,7 @@
 		D66216201EF509C000DD4FB7 /* TBVLocalImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVLocalImageProvider.m; sourceTree = "<group>"; };
 		D66216211EF509C000DD4FB7 /* TBVWebImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVWebImageProvider.h; sourceTree = "<group>"; };
 		D66216221EF509C000DD4FB7 /* TBVWebImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVWebImageProvider.m; sourceTree = "<group>"; };
+		D662162A1EF50F4E00DD4FB7 /* TBVImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVImageProvider.h; sourceTree = "<group>"; };
 		FA313526DDE71D36067A1934 /* Pods-TBVImageProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBVImageProvider.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBVImageProvider/Pods-TBVImageProvider.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +173,7 @@
 				D66216201EF509C000DD4FB7 /* TBVLocalImageProvider.m */,
 				D66216211EF509C000DD4FB7 /* TBVWebImageProvider.h */,
 				D66216221EF509C000DD4FB7 /* TBVWebImageProvider.m */,
+				D662162A1EF50F4E00DD4FB7 /* TBVImageProvider.h */,
 			);
 			path = TBVImageProvider;
 			sourceTree = "<group>";
@@ -555,6 +557,7 @@
 				D66215F61EF508CB00DD4FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D66215F71EF508CB00DD4FB7 /* Build configuration list for PBXNativeTarget "TBVImageProviderUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +566,7 @@
 				D66215F91EF508CB00DD4FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
