@@ -1,1 +1,0 @@
-../../../TBVImageBrowser/TBVImageBrowser/TBVImageBrowser/Browser/TBVImageBrowserViewCell.h

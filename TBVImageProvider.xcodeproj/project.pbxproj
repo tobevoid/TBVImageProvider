@@ -16,7 +16,6 @@
 		D66215F01EF508CB00DD4FB7 /* TBVImageProviderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D66215EF1EF508CB00DD4FB7 /* TBVImageProviderUITests.m */; };
 		D66216231EF509C000DD4FB7 /* NSError+TBVImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D66216141EF509C000DD4FB7 /* NSError+TBVImageProvider.m */; };
 		D66216241EF509C000DD4FB7 /* TBVAssetImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D66216161EF509C000DD4FB7 /* TBVAssetImageProvider.m */; };
-		D66216251EF509C000DD4FB7 /* TBVAssetsReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D66216191EF509C000DD4FB7 /* TBVAssetsReformer.m */; };
 		D66216261EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D662161C1EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.m */; };
 		D66216271EF509C000DD4FB7 /* TBVImageProviderManager+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = D662161E1EF509C000DD4FB7 /* TBVImageProviderManager+Register.m */; };
 		D66216281EF509C000DD4FB7 /* TBVLocalImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D66216201EF509C000DD4FB7 /* TBVLocalImageProvider.m */; };
@@ -54,8 +53,6 @@
 		D66216141EF509C000DD4FB7 /* NSError+TBVImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+TBVImageProvider.m"; sourceTree = "<group>"; };
 		D66216151EF509C000DD4FB7 /* TBVAssetImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVAssetImageProvider.h; sourceTree = "<group>"; };
 		D66216161EF509C000DD4FB7 /* TBVAssetImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVAssetImageProvider.m; sourceTree = "<group>"; };
-		D66216181EF509C000DD4FB7 /* TBVAssetsReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVAssetsReformer.h; sourceTree = "<group>"; };
-		D66216191EF509C000DD4FB7 /* TBVAssetsReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVAssetsReformer.m; sourceTree = "<group>"; };
 		D662161B1EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DALabeledCircularProgressView+TBVImageProgressPresenter.h"; sourceTree = "<group>"; };
 		D662161C1EF509C000DD4FB7 /* DALabeledCircularProgressView+TBVImageProgressPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DALabeledCircularProgressView+TBVImageProgressPresenter.m"; sourceTree = "<group>"; };
 		D662161D1EF509C000DD4FB7 /* TBVImageProviderManager+Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBVImageProviderManager+Register.h"; sourceTree = "<group>"; };
@@ -161,7 +158,6 @@
 		D66216121EF509C000DD4FB7 /* TBVImageProvider */ = {
 			isa = PBXGroup;
 			children = (
-				D66216171EF509C000DD4FB7 /* TBVAssetsReformer */,
 				D662161A1EF509C000DD4FB7 /* TBVImageProgressPresenter */,
 				D66216131EF509C000DD4FB7 /* NSError+TBVImageProvider.h */,
 				D66216141EF509C000DD4FB7 /* NSError+TBVImageProvider.m */,
@@ -176,15 +172,6 @@
 				D662162A1EF50F4E00DD4FB7 /* TBVImageProvider.h */,
 			);
 			path = TBVImageProvider;
-			sourceTree = "<group>";
-		};
-		D66216171EF509C000DD4FB7 /* TBVAssetsReformer */ = {
-			isa = PBXGroup;
-			children = (
-				D66216181EF509C000DD4FB7 /* TBVAssetsReformer.h */,
-				D66216191EF509C000DD4FB7 /* TBVAssetsReformer.m */,
-			);
-			path = TBVAssetsReformer;
 			sourceTree = "<group>";
 		};
 		D662161A1EF509C000DD4FB7 /* TBVImageProgressPresenter */ = {
@@ -350,7 +337,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D66216241EF509C000DD4FB7 /* TBVAssetImageProvider.m in Sources */,
-				D66216251EF509C000DD4FB7 /* TBVAssetsReformer.m in Sources */,
 				D66216291EF509C000DD4FB7 /* TBVWebImageProvider.m in Sources */,
 				D66216281EF509C000DD4FB7 /* TBVLocalImageProvider.m in Sources */,
 				D66216271EF509C000DD4FB7 /* TBVImageProviderManager+Register.m in Sources */,
